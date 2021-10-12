@@ -39,6 +39,12 @@ function reCheck() {
 	document.getElementById("idtf").value = "false";
 }
 
+function checkPost() {
+	window.open("/mvcmember/member/checkPost.do", 
+               "checkPost",
+               "width=500 height=500 top=200 left=700");
+}
+
 function checkWrite(){
 	document.getElementById("nameDiv").innerText = "";
 	document.getElementById("idDiv").innerText = "";

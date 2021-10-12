@@ -92,7 +92,7 @@ div {
 	         <td width="100" align="center">주소</td>
 	         <td>
 	            <input type="text" name="zipcode" id="zipcode" readonly>
-	            <input type="button" value="우편번호 검색" onclick="execDaumPostcode()"><br>
+	            <input type="button" value="우편번호 검색" onclick="checkPost()"><br>
 	            <input type="text" name="addr1" id="addr1" size="60" placeholder="주소" readonly><br>
 	            <input type="text" name="addr2" id="addr2" size="60" placeholder="상세주소">
 	         </td>
